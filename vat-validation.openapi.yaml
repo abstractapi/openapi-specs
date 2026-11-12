@@ -218,6 +218,7 @@ paths:
       summary: List VAT rates and categories for a country
       description: Returns the latest VAT rates for a specific country, including the
         standard rate and any reduced-rate categories.
+      security: []
       parameters:
       - name: country_code
         in: query
